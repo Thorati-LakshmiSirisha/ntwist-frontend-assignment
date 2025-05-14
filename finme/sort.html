@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sortable List</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>Navigation</h2>
+    <ul>
+      <li><a href="index.html">Contact</a></li>
+      <li><a href="sort.html">Sortable List</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+    </ul>
+  </aside>
+
+  <main class="sort-container">
+    <div class="form-card">
+      <h1>Name Directory</h1>
+      <p class="form-subtitle">Click the button below to sort the names alphabetically.</p>
+
+      <ul id="nameList">
+        <li>Siri</li>
+        <li>Teja</li>
+        <li>Devi</li>
+        <li>Nimala</li>
+      </ul>
+
+      <button id="sortBtn">Sort Alphabetically</button>
+
+      <section class="rating-section">
+        <h2>Rate Us</h2>
+        <div class="star-rating" id="starRating">
+          <span data-value="1">★</span>
+          <span data-value="2">★</span>
+          <span data-value="3">★</span>
+          <span data-value="4">★</span>
+          <span data-value="5">★</span>
+        </div>
+        <p id="ratingValue">You rated: 0 stars</p>
+      </section>
+    </div>
+  </main>
+
+  <script src="assets/js/sort.js"></script>
+</body>
+</html>
