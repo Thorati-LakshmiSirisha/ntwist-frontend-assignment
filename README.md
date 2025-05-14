@@ -85,7 +85,4 @@ This project was developed for the **NTWIST Frontend Developer Assessment** to d
 
 ```
 
----
 
-Let me know if you want this version shortened or formatted for display in GitHub's homepage preview.
-```
